@@ -1,0 +1,384 @@
+[
+    {
+        "id": "_meta",
+        "name": "Midori",
+        "almanac": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/almanac.html"
+    },
+    {
+        "id": "gumshoe_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/gumshoe_midori.png",
+        "firstNightReminder": "Wake the Gumshoe. Point at two players of different alignments. Place the 'False' reminder token on any good players who are pointed at.",
+        "reminders": [
+            "False",
+            "Evil"
+        ],
+        "name": "Gumshoe",
+        "team": "townsfolk",
+        "ability": "You start knowing 2 opposing players. Good players you learn must learn false info.",
+        "firstNight": 14
+    },
+    {
+        "id": "navigator_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/navigator_midori.png",
+        "firstNightReminder": "Show the Navigator a '1' if the number of steps between the evil players they are sat between is odd, and a '2' if it's even.",
+        "name": "Navigator",
+        "team": "townsfolk",
+        "ability": "You start knowing if the number of steps between your evil neighbors is even or odd.",
+        "attribution": "Autumn",
+        "flavor": "Master Florence and Dame Leblanc having night time communes? Ridiculous, I say! If they really had taken Potter's path every night, I'd congratulate them myself for keeping themselves completely intact!",
+        "firstNight": 16
+    },
+    {
+        "id": "chandler_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/chandler_midori.png",
+        "firstNightReminder": "You start knowing 2 players & if either of them are 1) Townsfolk, 2) Outsiders, 3) Minions.",
+        "reminders": [
+            "Townsfolk",
+            "Outsider",
+            "Minion",
+            "Other"
+        ],
+        "name": "Chandler",
+        "team": "townsfolk",
+        "ability": "You start knowing 2 players & if either of them are 1) Townsfolk, 2) Outsiders, 3) Minions.",
+        "attribution": "Elluna",
+        "flavor": "I don't make candles you can see everything by. I make candles you can see just enough by. Please do understand.",
+        "firstNight": 15
+    },
+    {
+        "id": "treasurer_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/treasurer_midori.png",
+        "name": "Treasurer",
+        "team": "townsfolk",
+        "ability": "You start knowing the character types the Demon neighbours (not Travellers). Once per game, at night*, learn a player with the same."
+    },
+    {
+        "id": "duke_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/duke_midori.png",
+        "firstNightReminder": "Wake the Duke & have them choose a player.",
+        "otherNightReminder": "Wake the Duke & have them choose a player.",
+        "name": "Duke",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player: you learn a character type they are not.",
+        "attribution": "Tir, The Duke's icon is a pocket watch or other similarly dated symbol of wealth",
+        "flavor": "I\u2019m sorry, is this some sort of peasant joke I\u2019m too rich to understand?",
+        "firstNight": 17,
+        "otherNight": 7
+    },
+    {
+        "id": "comedian_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/comedian_midori.png",
+        "name": "Comedian",
+        "team": "townsfolk",
+        "ability": "You might register falsely. Each night, learn how many characters you've affected since dawn."
+    },
+    {
+        "id": "aupair_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/aupair_midori.png",
+        "firstNightReminder": "Each night, you learn 2 players: either the 1st neighbours a Minion or the 2nd neighbours a Demon.",
+        "otherNightReminder": "Each night, you learn 2 players: either the 1st neighbours a Minion or the 2nd neighbours a Demon.",
+        "name": "Au-pair",
+        "team": "townsfolk",
+        "ability": "Each night, you learn 2 players: either the 1st neighbours a Minion or the 2nd neighbours a Demon.",
+        "firstNight": 23,
+        "otherNight": 6
+    },
+    {
+        "id": "stoogex_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/stoogex_midori.png",
+        "name": "Stooge [X]",
+        "team": "townsfolk",
+        "ability": "Each night, choose a player (not yourself): you learn their alignment. Stooges get reversed info. [+0 to +2 Stooges]"
+    },
+    {
+        "id": "grovetender_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/grovetender_midori.png",
+        "firstNightReminder": "choose a number: learn if it's more or less than the longest line of Townsfolk.",
+        "otherNightReminder": "choose a number: learn if it's more or less than the longest line of Townsfolk.",
+        "name": "Grovetender",
+        "team": "townsfolk",
+        "ability": "Each night, choose a number: you learn if the longest line of good players is 1) longer, 2) shorter, or 3) equal to it.",
+        "attribution": "BakedIce, A small pile of leaves",
+        "flavor": "I will one day find a patch of land that justifies my optimism. Once I arrive, I will breathe deeply and get to work.",
+        "firstNight": 18,
+        "otherNight": 8
+    },
+    {
+        "id": "silksinger_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/silksinger_midori.png",
+        "reminders": [
+            "Note",
+            "Note",
+            "Note"
+        ],
+        "name": "Silksinger",
+        "team": "townsfolk",
+        "ability": "You start knowing a statement. Each day, choose a prior statement and learn 1 of opposite truth value."
+    },
+    {
+        "id": "astronomer_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/astronomer_midori.png",
+        "reminders": [
+            "No ability"
+        ],
+        "name": "Astronomer",
+        "team": "townsfolk",
+        "ability": "Once per game, during the day, visit the Storyteller to privately learn why they made a decision, but not what it was.",
+        "flavor": "All things are hidden in the sway of the stars. Wait. Not like that. N-no, I don\u2019t mean in an astrological way."
+    },
+    {
+        "id": "patissier_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/patissier_midori.png",
+        "otherNightReminder": "If the Patissier has the Desserts Tonight reminder, they choose 3 players. Show them the character tokens of 2 players they've chosen.",
+        "reminders": [
+            "Night 1",
+            "Night 2",
+            "Desserts Tonight"
+        ],
+        "name": "Patissier",
+        "team": "townsfolk",
+        "ability": "On your 3rd night, choose 3 players: you learn 2 characters you've chosen.",
+        "attribution": "Ice & Mist. Based on Pythagorean. Some kind of handheld desert, like a strudel.",
+        "flavor": "A lemon tart for you, good lady. A minced meat pie for you, good sir. And for you, a mass of writhing grapes drenched in a scarlet reduction.",
+        "otherNight": 9
+    },
+    {
+        "id": "planetseeker_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/planetseeker_midori.png",
+        "reminders": [
+            "1st Day"
+        ],
+        "name": "Planetseeker",
+        "team": "townsfolk",
+        "ability": "X is Y steps away from Z. On your 2nd day, privately choose 1 value: you learn the other 2 (arbitrary if invalid).",
+        "attribution": "Imzecorella",
+        "flavor": "In a hundred thousand years, I'll look through this very same glass, and finally see that beautiful smile you cracked... when you felt a pair of eyes be layed upon you for the very first time. My eyes."
+    },
+    {
+        "id": "ghostwriter_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/ghostwriter_midori.png",
+        "firstNightReminder": "Wake the Ghostwriter to learn 2 Minions, only 1 of which is in play, before putting them to sleep. Then, wake the learned Minion and ask if they want to register as a good Ghostwriter until dusk. If no, put them to sleep. If yes, place the Book Tour and No Ability tokens.",
+        "otherNightReminder": "Remove the 'Book Tour' token. If they haven't used it yet, wake the learned Minion and ask if they want to register as a good Ghostwriter until dusk. If no, put them to sleep. If yes, place the Book Tour and No Ability tokens.",
+        "reminders": [
+            "Learned Minion",
+            "Book Tour ",
+            "No Ability"
+        ],
+        "name": "Ghostwriter",
+        "team": "outsider",
+        "ability": "You start knowing 3 characters: 1-3 are in play. The Demon chooses (once) when all might register as good Ghostwriters until dusk.",
+        "attribution": "Pynstripe. Old timey Typewriter.",
+        "flavor": "It\u2019s such a great novella. Many great themes, characters\u2026 the mystery? Who would have thought you could have used a soup spoon as the loading implement for a revolver fashioned from cutlery. I certainly wouldn\u2019t have.",
+        "firstNight": 13,
+        "otherNight": 4
+    },
+    {
+        "id": "nightshade_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/nightshade_midori.png",
+        "firstNightReminder": "A player gets *REVERSED* info until dusk. :reminder:",
+        "otherNightReminder": "Point at the player marked *REVERSED*. Then a player gets *REVERSED* info until dusk. :reminder:",
+        "reminders": [
+            "Reversed"
+        ],
+        "name": "Nightshade",
+        "team": "outsider",
+        "ability": "Each night, a player (if good) is drunk & gets reversed info until dusk. You then learn the previous player.",
+        "attribution": "Luis S",
+        "firstNight": 12,
+        "otherNight": 5
+    },
+    {
+        "id": "glassblower_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/glassblower_midori.png",
+        "reminders": [
+            "Masked",
+            "Affected"
+        ],
+        "name": "Glassblower",
+        "team": "outsider",
+        "ability": "1 of your neighbors registers as an evil Demon to Townsfolk. On the final night, learn a good player whose info you've affected."
+    },
+    {
+        "id": "hdi_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/hdi_midori.png",
+        "firstNightReminder": "Once per game, you & some players wake to lose your abilities, even if dead. The Demon learns who.",
+        "otherNightReminder": "Once per game, you & some players wake to lose your abilities, even if dead. The Demon learns who.",
+        "remindersGlobal": [
+            "Is the H\u00fadi\u00e9",
+            "Dream",
+            "Dream",
+            "Dream"
+        ],
+        "setup": true,
+        "name": "H\u00fadi\u00e9",
+        "team": "outsider",
+        "ability": "You think you're a Townsfolk. Once per game, you & some players wake to lose your abilities, even if dead. The Demon learns who.",
+        "attribution": "Tir-far-thoinn, art by TheDarkArtist, Correct Icon",
+        "flavor": "Five more minutes, please? You wouldn't believe the dream I just had. I mean, you were there, and you were there, and you, and you, and you were there....",
+        "firstNight": 19,
+        "otherNight": 10
+    },
+    {
+        "id": "malumopus_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/malumopus_midori.png",
+        "reminders": [
+            "Reversed",
+            "Reversed"
+        ],
+        "name": "Malum Opus",
+        "team": "minion",
+        "ability": "You know how many Outsiders are in play & learn 1: their Townsfolk neighbors get reversed info. [-1 to +1 Outsider] "
+    },
+    {
+        "id": "miasma_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/miasma_midori.png",
+        "firstNightReminder": "Each night, wake the Miasma. They either shake their head no or nod yes. If they shake their head, put the Miasma to sleep. If they nod, place the \u201cShrouded\u201d reminder in the Grimoire, and mark the Miasma with \u201cNo ability\u201d. While the \u201cShrouded\u201d reminder is placed, all Townsfolk are poisoned, and additionally must receive false information if they get any information.",
+        "otherNightReminder": "Each night, wake the Miasma. They either shake their head no or nod yes. If they shake their head, put the Miasma to sleep. If they nod, place the \u201cShrouded\u201d reminder in the Grimoire, and mark the Miasma with \u201cNo ability\u201d. While the \u201cShrouded\u201d reminder is placed, all Townsfolk are poisoned, and additionally must receive false information if they get any information.",
+        "reminders": [
+            "Shrouded",
+            "No ability"
+        ],
+        "name": "Miasma",
+        "team": "minion",
+        "ability": "Once per game, at night, choose that all Townsfolk are poisoned & get false information until dusk.",
+        "attribution": "Elluna, Redraw (?)",
+        "flavor": "No, bless you.",
+        "firstNight": 11,
+        "otherNight": 3
+    },
+    {
+        "id": "caliban_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/caliban_midori.png",
+        "firstNightReminder": "The demon may decide who's Caliban.",
+        "otherNightReminder": "The demon may decide who's Caliban.",
+        "remindersGlobal": [
+            "Has Caliban"
+        ],
+        "setup": true,
+        "name": "Caliban",
+        "team": "minion",
+        "ability": "Once per game, at night, the Demon chooses which alive player is Caliban & evil. [No one is Caliban, +1 Outsider]",
+        "firstNight": 24,
+        "otherNight": 2
+    },
+    {
+        "id": "afonoplexia_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/afonoplexia_midori.png",
+        "reminders": [
+            "Final Day"
+        ],
+        "name": "Afonoplexia",
+        "team": "minion",
+        "ability": "On the final day, good only wins if a Minion is executed. If you die, keep this ability."
+    },
+    {
+        "id": "sterenae_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/sterenae_midori.png",
+        "otherNightReminder": "On the 3rd night, choose 2 alive good players (not Travellers): all others die & evil wins at dusk. You wake last.",
+        "reminders": [
+            "Night 1",
+            "Night 2",
+            "Night 3",
+            "Lives",
+            "Lives"
+        ],
+        "name": "Sterenae",
+        "team": "demon",
+        "ability": "On the 3rd night, choose 2 alive good players (not Travellers): all others die & evil wins at dusk. You wake last.",
+        "attribution": "Procyon, The Sterenae icon is a supernova.",
+        "flavor": "Come, sit with me, my fellow traveler. Let\u2019s sit together and watch the stars die.",
+        "otherNight": 14
+    },
+    {
+        "id": "concorhast_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/concorhast_midori.png",
+        "firstNightReminder": "The Concorhast points to a player.",
+        "otherNightReminder": "The Concorhast points to a player.",
+        "reminders": [
+            "Day 1",
+            "Day 2",
+            "Day 3",
+            "Day 4",
+            "About to die"
+        ],
+        "name": "Concorhast",
+        "team": "demon",
+        "ability": "Uncast alive votes go to nominators. Each night, choose a player: they're 'About to die'. Minion nominations fail if you are & wins after day 4.",
+        "attribution": "Imzecorella, The Concorhast icon is a bundle of grapes with leaves and tendrils, but somehow monstrous",
+        "flavor": "Fear in love, it's what I see... Veni, vidi, amavi. Fruit I bear, of hearts and tree. Life means tangling, wrath. Veni, vidi, edi, edi. I watch te in concordia mori.",
+        "firstNight": 20,
+        "otherNight": 11
+    },
+    {
+        "id": "infernoplex_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/infernoplex_midori.png",
+        "firstNightReminder": "Each night, all players learn a question",
+        "otherNightReminder": "Each night, all players learn a question",
+        "reminders": [
+            "Day 1",
+            "Day 2",
+            "Day 3",
+            "Day 4",
+            "Day 5",
+            "Staved Off"
+        ],
+        "name": "Infernoplex",
+        "team": "demon",
+        "ability": "Each night, all players learn a question & answer it tomorrow. The 2nd time they answer wrong, or after day 5, evil wins.",
+        "attribution": "Super, Infernoplex's icon is a stage burning down (though the only real necessity is the fire)",
+        "flavor": "'Oh pardon me. This Koi doesn't have that smokey tinge I like, could you be so kind to get this little situation, ahem, fixed?' They asked. All I did was answer... I'm a kind soul.",
+        "firstNight": 21,
+        "otherNight": 12
+    },
+    {
+        "id": "canonnade_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/canonnade_midori.png",
+        "firstNightReminder": "Place the next day reminder, and announce how many players are required for each nomination.",
+        "otherNightReminder": "Place the next day reminder, and announce how many players are required for each nomination.",
+        "reminders": [
+            "Day 1",
+            "Day 2",
+            "Day 3",
+            "Day 4",
+            "Day 5",
+            "Day 6"
+        ],
+        "name": "Canon Nade",
+        "team": "demon",
+        "ability": "All know how many players are required for each nomination. It increases by 2 per execution, up to all but 1 alive players. After day 6, evil wins.",
+        "flavor": "The wicked artillery set by thy father shall fire at midnight. Repent, make anew with thy father; there shan\u2019t be freedom, nor tears of sympathy, nor have reverent willingness to bow, when those who have not bow\u2019d in life shall be lowered to thy father\u2019s eternal battlefield - where the cannonade shall be the final lullaby for sleepless nights.",
+        "firstNight": 22,
+        "otherNight": 13
+    },
+    {
+        "id": "major_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/major_midori.png",
+        "name": "Major",
+        "team": "traveller",
+        "ability": "As you leave, view the Grimoire and write a short message to be read on the final day. It must not feature any names."
+    },
+    {
+        "id": "host_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/host_midori.png",
+        "name": "Host",
+        "team": "traveller",
+        "ability": "Once per game, during the day, publicly ask 1 player a question: they must answer it. Tonight, learn if they were correct."
+    },
+    {
+        "id": "reverist_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/reverist_midori.png",
+        "name": "Reverist",
+        "team": "traveller",
+        "ability": "Once per game, publicly say a word. The following night, gain an ability which contains it."
+    },
+    {
+        "id": "journalist_midori",
+        "image": "https://www.bloodstar.xyz/p/APintOfClocktower/Midori/journalist_midori.png",
+        "reminders": [
+            "Big Scoop"
+        ],
+        "name": "Journalist",
+        "team": "traveller",
+        "ability": "Each night, choose a player: tomorrow, the Storyteller publicly announces an anonymous fact about them."
+    }
+]
